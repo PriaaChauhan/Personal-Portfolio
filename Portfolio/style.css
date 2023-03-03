@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.sidebar {
+  background-color: rgb(224, 222, 222);
+  width: 15vw;
+ 
+}
+.sidebar nav {
+  padding: 40px;
+}
+.sidebar nav li {
+  list-style: none;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.sidebar nav li a {
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+}
+.sidebarGo{
+  transform: translate(-400px, 0px);
+  position: absolute;
+}
+.container {
+  display: flex;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+.main {
+  /*background-color: rgb(29, 29, 138);*/
+  width: 90vw;
+}
+.infoContainer {
+  /*background-color:white ;*/
+  height: 40vh;
+  width: 60vw;
+  margin: 50px;
+  margin-top: 50px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.devInfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.devPic img {
+  height: 40vh;
+}
+.mainBlog{
+  margin-left: 20px;
+}
+.hello {
+  font-size: 45px;
+}
+.info {
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.name {
+  font-size: 35px;
+  font-weight: bold;
+}
+.moreabout {
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.contact {
+  margin-top: 25px;
+  margin-right: 20px;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 3px;
+  background-color: rgb(167, 181, 181);
+  cursor: pointer;
+}
+.cv {
+  margin-top: 25px;
+  margin-right: 20px;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 3px;
+  background-color: rgb(167, 181, 181);
+  cursor: pointer;
+}
+.main {
+  margin-top: 150px;
+  margin-left: 180px;
+}
+.main h2 {
+  margin-right: 200px;
+  margin-bottom: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+.main div {
+  padding-top: 9px;
+}
+.mb-32 {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+}
+#emailHelp {
+  font-size: 12px;
+  color: red;
+  padding-bottom: 8px;
+}
+.btn {
+    padding: 6px;
+  padding-left: 17px;
+  padding-right: 17px;
+  font-size: 20px;
+  margin-top: 20px;
+  background-color: rgb(37, 150, 243);
+  border-radius: 20px;
+  cursor: pointer;
+}
+.blogContainer h1{
+    padding-bottom: 20px;
+    font-weight: normal;
+  }
+.blogContainer{
+    padding-bottom:50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.btn-sm{
+    font-size:13px;
+    padding: 3px;
+    background-color: rgb(206, 219, 219);
+    margin-top: 4px;
+}
+.hamburger{
+  background-color: rgb(197, 192, 192);
+  width:165px;
+  cursor: pointer;
+}
+.cross{
+  margin-left: 14px;
+}
+.mainIntro{
+  margin-left: 25px;
+}
+.mainIntro h1{
+  margin-bottom: 15px;
+}
+.mainIntro p{
+  margin-bottom: 25px;
+}
+.skill{
+  margin-top: 15px;
+}
+.html{
+  background-color: brown;
+  height:3vh;
+  width: 45vw;
+  margin-bottom: 15px;
+}
+.css{
+  background-color: rgb(23, 223, 56);
+  height:3vh;
+  width: 52vw;
+  margin-bottom: 15px;
+ 
+}.js{
+  background-color: rgb(112, 116, 229);
+  height:3vh;
+  width: 32vw;
+  margin-bottom: 15px;
+}
